@@ -2,30 +2,35 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const projects = [
     {
-        title: "Auto Showroom, Mumbai",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBs_hIOziXCrrT-HR1n0e6SqkxrZio3s-rIRASw3wUQVkucbHMsSKy9AldmxGrmM8ZE6J9N_2eNOPHfywJ4mPgWtcOWxxorbYyw4NctM2PbvY5FOWHQRzgs3a7HGfhYh7xuvK_gBO5Hx2WODq2oTtpBhnXfWJIJHDyfMpkuJgYr3wGRsFqo1DkLqXCRnGEnCj6pd9Ev-2f8WWQRWuw31XWPaITKtWtRrcZ_U1a1DIsn4kXvzdL7mnGCU2ympKFfv7EyuVtR5fA4uw",
+        title: "Epoxy Flooring Project 1",
+        image: "/gallery/img1.jpeg",
+        colSpan: 2
+    },
+    {
+        title: "Epoxy Flooring Project 2",
+        image: "/gallery/img2.jpeg",
         colSpan: 1
     },
     {
-        title: "Chemical Factory, Gujarat",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB-a2pm9-NjReG52Y5OdOPVp9sYfSw7Eke7o_OOr9ujgO-3-XnC90It3kOPlRJSY63Oy05PTU79cmc_bGuUQnvWrxC-kQAe25evgyBvO55BO1VsV1GCh-QoPuM7JBeFf0C8JA2RKsPc3_Z0QLWQEplpBlG2eK4E_mg4s13bh4Q74B8ph9LXTgBm6hIpGupdAi-xCD24IBbMBbb1g5q6VXjVkAXUTAnBL2jB45MWEsN9sr6KedOagDdwTWfrHf3doMjEQwfrREHgdQ",
-        colSpan: 2
-    },
-    {
-        title: "Office Lobby, Pune",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAbL_ZXrZ-ixUsoGctSunCN5r-mauMZgQ6onYLaw4baRIp2_lRJLYZ-_dGghQUcw11kf-uEAjk7PgC99FHQTtpiKEknQ-sv_5vd2Y6ojPxOCZkrVJPtlPrm4GeQViCPg1-TYxVABOl79AYgZlLlcopbIuVraPFAwCgorApIW40H0Ma9uuuIkxonxwT0qDZar2mRWP9AcDw8TdEcz-oAjpFpzFaC6JsIIBFbBjxezmuRI7igTPfzpPgLuCvZpJPtAp5Htb7d-YQQTg",
+        title: "Epoxy Flooring Project 3",
+        image: "/gallery/img3.jpeg",
         colSpan: 1
     },
     {
-        title: "Multilevel Parking, Bangalore",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCPJfiDm6HqHtge6D8seotsWWRXRrOcWbjVj8CX-9YLxiEd300W6NrvpO70m73biFSHZrU8riEVt9YfEnVXDputd2rpdd1SJtwor7bspJBDGHT0RKn6tgb0Fb9bkg7jhkOfNnaBYt_K2F6Lb3BFHPUvFbqVZOD2-KdgPJKOQmjDqDmyyo2mlqudY59-He2BhXNNky6GuktvrE_5iXZB-hYxn4Src12RQb4n_0-6jvjY_FlVa6XmBG7alxnqhuK-65lp9SOBbW9ipw",
+        title: "Epoxy Flooring Project 4",
+        image: "/gallery/img4.jpeg",
         colSpan: 2
     },
     {
-        title: "Food Processing Plant, Nashik",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDQSBSUnIRsBqlhlhbbGymnINUQid_I2AXVtOQK2dFCqBL-SOrBQfbpN3RVNkxxzXEd5o2BpMWvHpBrPAJVtK-AMCNkhOBIp60i4GSBeZzEVVcDsO7gRVe1lUaRpf2Hp-ZzgqK8ICUs6YrW-zIHhv9vvaPsfFniA0xiZpgp5avcdOjuWkhLMTq_PDRfK3zqC8ZaD8Plfab24HW9OMPj-Q_2Rz_qW28t403U3DLugtnwx-PNJP22fzYYGeZ-abXpPYCPAXNsuoYHXA",
-        colSpan: 2
-    }
+        title: "Epoxy Flooring Project 5",
+        image: "/gallery/img5.jpeg",
+        colSpan: 1
+    },
+    {
+        title: "Epoxy Flooring Project 6",
+        image: "/gallery/img6.jpeg",
+        colSpan: 1
+    },
 ];
 
 export default function ProjectsGallery() {
