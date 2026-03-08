@@ -9,10 +9,14 @@ export default function Footer() {
                     <div className="col-span-1 md:col-span-2">
                         <Link href="/" className="flex items-center gap-3 mb-6">
                             <img
-                                src="/brand/logo.png"
+                                src="/brand/logo.jpeg"
                                 alt="Viswakarma Epoxy Flooring Logo"
-                                className="h-24 w-auto object-contain"
+                                className="h-16 w-16 object-cover rounded-full shadow-lg shadow-black/30"
                             />
+                            <div className="flex flex-col leading-tight">
+                                <span className="text-xl font-black text-white uppercase tracking-tight">Viswakarma</span>
+                                <span className="text-xs font-bold text-primary tracking-widest uppercase">Epoxy Flooring</span>
+                            </div>
                         </Link>
                         <p className="text-slate-400 max-w-sm mb-6 text-sm leading-relaxed">
                             A unit of N A Raghvani and Company. Delivering premium flooring solutions across India with a focus on durability, safety, and aesthetics.

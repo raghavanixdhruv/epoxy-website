@@ -12,10 +12,14 @@ export default function Navbar() {
             <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
                 <Link href="/" className="flex items-center gap-3">
                     <img
-                        src="/brand/logo.png"
+                        src="/brand/logo.jpeg"
                         alt="Viswakarma Epoxy Flooring Logo"
-                        className="h-16 w-auto object-contain"
+                        className="h-14 w-14 object-cover rounded-full shadow-md"
                     />
+                    <div className="flex flex-col leading-tight">
+                        <span className="text-lg font-black text-brand-blue uppercase tracking-tight">Viswakarma</span>
+                        <span className="text-xs font-bold text-primary tracking-widest uppercase">Epoxy Flooring</span>
+                    </div>
                 </Link>
                 <nav className="hidden md:flex items-center gap-8">
                     <Link href="/" className="text-sm font-semibold text-slate-700 hover:text-primary transition-colors">Home</Link>
