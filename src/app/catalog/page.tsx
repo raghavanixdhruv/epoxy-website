@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { MessageCircle, Mail, X, CheckCircle2, ChevronLeft, ChevronRight } from "lucide-react";
 
 type Product = {
@@ -85,6 +85,7 @@ export default function CatalogPage() {
     const [activeTab, setActiveTab] = useState("All Systems");
     const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
     const [currentImageIndex, setCurrentImageIndex] = useState<Record<string, number>>({});
+    const touchStartX = useRef<number | null>(null);
     const [formData, setFormData] = useState({
         name: "",
         phone: "",
@@ -143,7 +144,22 @@ export default function CatalogPage() {
                         <div key={product.id} className="group bg-white rounded-2xl overflow-hidden border border-slate-200 flex flex-col h-full shadow-sm hover:shadow-xl hover:border-primary/20 transition-all duration-300">
                             <div className="aspect-video relative overflow-hidden">
                                 {product.images && product.images.length > 1 ? (
-                                    <div className="relative w-full h-full group/slider">
+                                    <div
+                                        className="relative w-full h-full group/slider"
+                                        onTouchStart={(e) => { touchStartX.current = e.touches[0].clientX; }}
+                                        onTouchEnd={(e) => {
+                                            if (touchStartX.current === null) return;
+                                            const diff = touchStartX.current - e.changedTouches[0].clientX;
+                                            if (Math.abs(diff) > 40) {
+                                                setCurrentImageIndex(prev => ({
+                                                    ...prev,
+                                                    [product.id]: diff > 0
+                                                        ? ((prev[product.id] || 0) + 1) % product.images!.length
+                                                        : ((prev[product.id] || 0) - 1 + product.images!.length) % product.images!.length
+                                                }));
+                                            }
+                                            touchStartX.current = null;
+                                        }}>
                                         <img
                                             src={product.images[currentImageIndex[product.id] || 0]}
                                             alt={product.name}
