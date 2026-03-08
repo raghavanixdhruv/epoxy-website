@@ -14,20 +14,6 @@ type Product = {
 
 const products: Product[] = [
     {
-        id: "self-leveling",
-        name: "Self-Leveling Epoxy",
-        description: "A high-performance, seamless system for heavy-duty industrial environments and commercial warehouses.",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuA2MLBai2BzxIyTxyo59hT7gBupCcngeQQ2n0azQGLX_-UKeplFAKX8IKo69V-jqmhhSQ1B3uJKEYijS63-UmAPUjFMdlZ6odLOEbzBUYl6jJtLZRCvgXXS0KK6s5lCttIKojKo3j6fG4PRNIrgPEhxYeOwZ1A2Xcw17GlfxmQsmtzAcS4BsKybPO4PN607LKPa168l7gDszozaYmx40ol8JdA4sCNflYDEi-ug_IPD9XG6IIaMtDung9e9N5FdID2oJQz7hlu8Lw",
-        category: "Industrial",
-    },
-    {
-        id: "anti-static",
-        name: "Anti-Static (ESD)",
-        description: "Protects sensitive electronics from static discharge. Essential for labs, server rooms, and electronics assembly.",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuArUnUyoqApiznXKMWcdq5nKY3dhdaoE6xFYBH-kzNIFkVFeTd1trrqsqGP5bkeq-jA60ul9_FP7EhV4jRKaGGOoBag1q7TDql_WqqvmauFIo-Qtn4Qvzj69pKDR6Sk6oxdb-9tWtkQW_26EjjCyy-s6KyFqaalpESr4nMNRjR-RlomPU1hZVI-iHvLC71CxGGHap35w3CwOgVY8izKdppy1E8T6kbWbApPSH2dX8th92zCKHj6wMKboNcd9JKw_Wj_YIxGGandhA",
-        category: "Safety/ESD",
-    },
-    {
         id: "italian-marble",
         name: "Italian Marble Epoxy Flooring",
         description: "Elegant, seamless finishes mimicking natural Italian marble for luxury spaces.",
@@ -93,7 +79,7 @@ const products: Product[] = [
     },
 ];
 
-const categories = ["All Systems", "Industrial", "Decorative", "Safety/ESD"];
+const categories = ["All Systems", "Industrial", "Decorative"];
 
 export default function CatalogPage() {
     const [activeTab, setActiveTab] = useState("All Systems");

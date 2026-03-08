@@ -11,13 +11,11 @@ export default function Navbar() {
         <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background-light/90 backdrop-blur-md">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
                 <Link href="/" className="flex items-center gap-3">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
-                        <Layers className="h-6 w-6" />
-                    </div>
-                    <div className="flex flex-col">
-                        <h2 className="text-lg font-black leading-none tracking-tight text-brand-blue uppercase">Viswakarma</h2>
-                        <span className="text-[10px] font-bold text-primary tracking-widest uppercase">Epoxy Flooring</span>
-                    </div>
+                    <img
+                        src="/brand/logo.png"
+                        alt="Viswakarma Epoxy Flooring Logo"
+                        className="h-16 w-auto object-contain"
+                    />
                 </Link>
                 <nav className="hidden md:flex items-center gap-8">
                     <Link href="/" className="text-sm font-semibold text-slate-700 hover:text-primary transition-colors">Home</Link>

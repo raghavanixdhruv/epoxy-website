@@ -11,21 +11,13 @@ const services = [
         description: "Sleek, professional, and easy-to-clean finishes for retail stores, showrooms, and offices.",
         icon: Store,
     },
-    {
-        title: "Warehouse Flooring",
-        description: "Dust-proof, abrasion-resistant surfaces optimized for heavy forklift traffic and storage logistics.",
-        icon: Warehouse,
-    },
+
     {
         title: "Parking Lot Flooring",
         description: "Anti-skid, oil-resistant coatings with clear navigation markings for safety and durability.",
         icon: ParkingCircle,
     },
-    {
-        title: "Factory Flooring",
-        description: "Specialized self-leveling epoxy for precision environments requiring ultra-flat surfaces.",
-        icon: Settings,
-    },
+
     {
         title: "Decorative Epoxy",
         description: "Creative metallic, 3D, and flake flooring for high-end aesthetic residential or lobby areas.",

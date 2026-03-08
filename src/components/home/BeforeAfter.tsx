@@ -50,7 +50,7 @@ export default function BeforeAfter() {
                         {/* Before Image (Background) */}
                         <div className="absolute inset-0">
                             <img
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDX50b9S6DIEboapzLfRdfji6R8o6t3kn_NxUk82SSaKiRAI68wdA2w4jlIo9ED4qoZ0cEmzMdB0i3k694Si-S1g3ZJ1inBATUVTjPoo1aUrQZ_iG3zZudbcYc3OUC_GBSB_EUHVkWNseHVX0y0n-C0rKxZI7Q5OlbwMxKFk1PBRMjRkt7nS4u-gsOGbWN6iPKov43oEO4V_rW5vi5Rl_fVkhtGs1NU8ThVXbXWeNmLsvbUPQVz6HecXo1HGtDnvDrbw9cD1m2Jbg"
+                                src="/3d-5d-epoxy/before_slider.png"
                                 alt="Before Epoxy"
                                 className="w-full h-full object-cover pointer-events-none"
                             />
@@ -65,7 +65,7 @@ export default function BeforeAfter() {
                             style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
                         >
                             <img
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhPBjce_DQbi6iXZASQo9b3hJxgWyypiG_mlrhAvnSKlqpdXlPjcaoPT3fi8E6LmiIpfi7FM6K_Uv-0KhfzqRJQo6NPxiMLIkWWYnsj1-_Gr05y0KmJYt5xcsOJStvKaEpYV3o1IprgcSkRJ-fumVUSicsTyvyRoOxKdW-TVzIHnhUlscm84zjKQMDlptjcnwp0kptb3j2mW-q-NwnMD5EcQqxfuuQeat1W-N3PsZ0yuKBFkwbX4XVHqO3aK7DSuFlWLbDrtIuqg"
+                                src="/3d-5d-epoxy/after_slider.png"
                                 alt="After Epoxy"
                                 className="w-[calc(100%+4px)] max-w-none h-full object-cover pointer-events-none"
                                 style={{ width: "100%", position: "absolute", top: 0, left: 0 }}
