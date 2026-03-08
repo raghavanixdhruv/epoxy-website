@@ -5,7 +5,7 @@ import { Calculator, IndianRupee, CheckCircle2 } from "lucide-react";
 
 export default function CostEstimator() {
     const [area, setArea] = useState<number | "">("");
-    const [system, setSystem] = useState("Self-Leveling (Industrial)");
+    const [system, setSystem] = useState("Italian Marble Epoxy Flooring");
     const [condition, setCondition] = useState("New Concrete");
     const [estimate, setEstimate] = useState<{ min: number, max: number } | null>(null);
 
@@ -23,8 +23,8 @@ export default function CostEstimator() {
             case "Flakes Epoxy Flooring": minRate = 120; maxRate = 250; break;
             case "Car Parking Epoxy Flooring": minRate = 60; maxRate = 90; break;
             case "Granual Epoxy Flooring": minRate = 110; maxRate = 160; break;
-            case "Self-Leveling (Industrial)": minRate = 50; maxRate = 65; break;
-            case "Anti-Static (ESD)": minRate = 120; maxRate = 150; break;
+
+
             default: minRate = 50; maxRate = 65;
         }
 
@@ -68,8 +68,8 @@ export default function CostEstimator() {
                                     value={system}
                                     onChange={(e) => setSystem(e.target.value)}
                                 >
-                                    <option>Self-Leveling (Industrial)</option>
-                                    <option>Anti-Static (ESD)</option>
+
+
                                     <option>Italian Marble Epoxy Flooring</option>
                                     <option>Metallic Epoxy Flooring</option>
                                     <option>3D-5D Epoxy Flooring</option>

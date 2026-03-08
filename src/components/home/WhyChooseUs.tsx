@@ -46,7 +46,7 @@ export default function WhyChooseUs() {
                         <img
                             alt="Technical flooring work"
                             className="relative rounded-3xl shadow-2xl object-cover w-full h-[500px]"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2Kg-mej0BP8uZk-M7oPIhXwnYghJsiB6IyXj90TCRrC1Cfjkx-_JZEJPiZaOZddf-04UaSY0mo_6zmlSoaXDm53-3v-PbCPpWiVOX-QZN2iEcXM-4YxGMIpU0qIf-FJtCWv_91Gf1ZHBb3ZEKv1agagjRPDphfKHxjbV9Pbx0jqFVWQ93_6gCmktMdIv0b39kgjOtMjnLRIq8fk-JgqJ0WnAclMGosa2-FvJPJAjggl4PU80jXEd_BNynEtEFodjMvd08hYsj2A"
+                            src="/why-choose-us.avif"
                         />
                     </div>
                 </div>

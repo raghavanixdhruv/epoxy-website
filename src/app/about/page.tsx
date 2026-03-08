@@ -69,7 +69,7 @@ export default function AboutPage() {
                         </div>
                         <div className="flex flex-col items-center justify-center p-8 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
                             <CheckCircle2 className="h-10 w-10 text-primary mb-4" />
-                            <p className="text-4xl font-black text-white mb-2">90+</p>
+                            <p className="text-4xl font-black text-white mb-2">40+</p>
                             <p className="text-slate-400 font-medium uppercase tracking-wider text-sm">Projects Completed</p>
                         </div>
                         <div className="flex flex-col items-center justify-center p-8 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm">
@@ -163,7 +163,7 @@ export default function AboutPage() {
                     <div className="bg-primary/5 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 border border-primary/20 shadow-sm">
                         <div className="max-w-xl text-center md:text-left">
                             <h2 className="text-2xl md:text-3xl font-black text-brand-blue mb-3">Ready to transform your facility?</h2>
-                            <p className="text-slate-600 font-medium">Join 90+ satisfied commercial and industrial clients who trust Viswakarma Epoxy for their critical flooring infrastructure.</p>
+                            <p className="text-slate-600 font-medium">Join 40+ satisfied commercial and industrial clients who trust Viswakarma Epoxy for their critical flooring infrastructure.</p>
                         </div>
                         <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto shrink-0">
                             <Link
