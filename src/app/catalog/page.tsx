@@ -18,7 +18,7 @@ const products: Product[] = [
         name: "Italian Marble Epoxy Flooring",
         description: "Elegant, seamless finishes mimicking natural Italian marble for luxury spaces.",
         image: "/italian-marble/img1.jpg",
-        images: ["/italian-marble/img1.jpg", "/italian-marble/img2.jpg", "/italian-marble/img3.jpg"],
+        images: ["/italian-marble/img1.jpg", "/italian-marble/img2.jpg", "/italian-marble/img3.jpg", "/italian-marble/img4.jpg", "/italian-marble/img5.jpg", "/italian-marble/img6.jpg"],
         category: "Decorative",
     },
     {
@@ -26,7 +26,7 @@ const products: Product[] = [
         name: "Metallic Epoxy Flooring",
         description: "High-gloss metallic pigments that create a unique flowing effect for modern lobbies.",
         image: "/metallic-epoxy/img1.jpg",
-        images: ["/metallic-epoxy/img1.jpg", "/metallic-epoxy/img2.jpg", "/metallic-epoxy/img3.jpg"],
+        images: ["/metallic-epoxy/img1.jpg", "/metallic-epoxy/img2.jpg", "/metallic-epoxy/img3.jpg", "/metallic-epoxy/img4.jpg", "/metallic-epoxy/img5.jpg", "/metallic-epoxy/img6.jpg", "/metallic-epoxy/img7.jpg", "/metallic-epoxy/img8.jpg"],
         category: "Decorative",
     },
     {
@@ -34,7 +34,7 @@ const products: Product[] = [
         name: "3D-5D Epoxy Flooring",
         description: "Incorporate custom branding or photorealistic 3D/5D art under a high-resistance protective epoxy layer.",
         image: "/3d-5d-epoxy/img1.jpg",
-        images: ["/3d-5d-epoxy/img1.jpg", "/3d-5d-epoxy/img2.jpg", "/3d-5d-epoxy/img3.jpg"],
+        images: ["/3d-5d-epoxy/img1.jpg", "/3d-5d-epoxy/img2.jpg", "/3d-5d-epoxy/img3.jpg", "/3d-5d-epoxy/img4.jpg", "/3d-5d-epoxy/img5.jpg", "/3d-5d-epoxy/img6.jpg", "/3d-5d-epoxy/img7.jpg", "/3d-5d-epoxy/img8.jpg"],
         category: "Decorative",
     },
     {
@@ -50,7 +50,7 @@ const products: Product[] = [
         name: "Industrial Epoxy Flooring",
         description: "Heavy-duty, seamless floor coating ideal for factories, warehouses, and high-traffic industrial environments.",
         image: "/industrial-epoxy/img1.jpg",
-        images: ["/industrial-epoxy/img1.jpg", "/industrial-epoxy/img2.jpg", "/industrial-epoxy/img3.jpg", "/industrial-epoxy/img4.jpg"],
+        images: ["/industrial-epoxy/img1.jpg", "/industrial-epoxy/img2.jpg", "/industrial-epoxy/img3.jpg", "/industrial-epoxy/img4.jpg", "/industrial-epoxy/img5.jpg", "/industrial-epoxy/img6.jpg", "/industrial-epoxy/img7.jpg", "/industrial-epoxy/img8.jpg", "/industrial-epoxy/img9.jpg"],
         category: "Industrial",
     },
     {
