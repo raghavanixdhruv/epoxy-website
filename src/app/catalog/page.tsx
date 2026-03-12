@@ -221,7 +221,10 @@ Thank you.`;
                                 <div
                                     key={product.id}
                                     className="group bg-white rounded-2xl overflow-hidden border border-slate-200 flex flex-col h-full shadow-sm hover:shadow-xl hover:border-primary/20 transition-all duration-300 cursor-pointer"
-                                    onClick={() => setDetailProduct(product)}
+                                    onClick={() => {
+                                        setDetailProduct(product);
+                                        window.scrollTo({ top: 0, behavior: "smooth" });
+                                    }}
                                 >
                                     <div className="aspect-video relative overflow-hidden">
                                         {product.images && product.images.length > 1 ? (

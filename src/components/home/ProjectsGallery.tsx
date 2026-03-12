@@ -31,6 +31,41 @@ const projects = [
         image: "/gallery/img6.jpeg",
         colSpan: 1
     },
+    {
+        title: "Epoxy Flooring Project 7",
+        image: "/gallery/img7.jpeg",
+        colSpan: 2
+    },
+    {
+        title: "Epoxy Flooring Project 8",
+        image: "/gallery/img8.jpeg",
+        colSpan: 1
+    },
+    {
+        title: "Epoxy Flooring Project 9",
+        image: "/gallery/img9.jpeg",
+        colSpan: 1
+    },
+    {
+        title: "Epoxy Flooring Project 10",
+        image: "/gallery/img10.jpeg",
+        colSpan: 2
+    },
+    {
+        title: "Epoxy Flooring Project 11",
+        image: "/gallery/img11.jpeg",
+        colSpan: 1
+    },
+    {
+        title: "Epoxy Flooring Project 12",
+        image: "/gallery/img12.jpeg",
+        colSpan: 1
+    },
+    {
+        title: "Epoxy Flooring Project 13",
+        image: "/gallery/img13.jpeg",
+        colSpan: 2
+    },
 ];
 
 export default function ProjectsGallery() {

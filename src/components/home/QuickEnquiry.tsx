@@ -99,7 +99,7 @@ Service: ${formData.service}`;
                                     <option>Industrial Flooring</option>
                                     <option>Commercial Flooring</option>
                                     <option>Warehouse Flooring</option>
-                                    <option>Parking Lot Flooring</option>
+                                    <option>Residential Flooring</option>
                                     <option>Decorative Epoxy</option>
                                 </select>
                             </div>

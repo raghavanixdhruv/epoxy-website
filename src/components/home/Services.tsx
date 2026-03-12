@@ -1,4 +1,4 @@
-import { Factory, Store, Warehouse, ParkingCircle, Settings, Palette } from "lucide-react";
+import { Factory, Store, Home, Palette } from "lucide-react";
 
 const services = [
     {
@@ -11,13 +11,11 @@ const services = [
         description: "Sleek, professional, and easy-to-clean finishes for retail stores, showrooms, and offices.",
         icon: Store,
     },
-
     {
-        title: "Parking Lot Flooring",
-        description: "Anti-skid, oil-resistant coatings with clear navigation markings for safety and durability.",
-        icon: ParkingCircle,
+        title: "Residential Flooring",
+        description: "Elegant, durable, and low-maintenance epoxy solutions for homes, kitchens, and living spaces.",
+        icon: Home,
     },
-
     {
         title: "Decorative Epoxy",
         description: "Creative metallic, 3D, and flake flooring for high-end aesthetic residential or lobby areas.",

@@ -7,7 +7,7 @@ export default function Hero() {
             <div className="absolute inset-0 z-0">
                 <div
                     className="w-full h-full bg-cover bg-center"
-                    style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCc0reNgOn6X8vHWPkV1uHlMVxvLgVy0RmRWh65U-rPD_ZlB31WmHFzvMjsN7CELQFKMT-5BF5sII5L4v597bYvpQ1hadFn2wGHSAW0wRyCV_rjfxJukPvQyFcjHM052fjKIpV_dCK1K28XOZHmjF-K0iuE7fVkHPQ0jKlZ318RnXv_UR4xd9BTFByKi0MmxDXQtRzXOFvar_66GXZ9wwbhI8czpEfOYx_WPT3BBdKNpp540SmcUw0OpCC9fWx96kS9hF6XD6H9EQ')" }}
+                    style={{ backgroundImage: "url('/hero-bg.png')" }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-brand-blue via-brand-blue/80 to-transparent"></div>
             </div>
